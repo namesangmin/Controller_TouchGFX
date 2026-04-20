@@ -1,0 +1,336 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "MainScreen",
+        "Components": [
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "Width": 240,
+            "Height": 135,
+            "Color": {
+              "Red": 145,
+              "Green": 137,
+              "Blue": 137
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1_1",
+            "Y": 155,
+            "Width": 240,
+            "Height": 121,
+            "Color": {
+              "Red": 145,
+              "Green": 137,
+              "Blue": 137
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Y": 270,
+            "Width": 240,
+            "Height": 50,
+            "Color": {
+              "Red": 178,
+              "Green": 178,
+              "Blue": 178
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "VR_BASE",
+            "X": 10,
+            "Y": 160,
+            "Width": 90,
+            "Height": 24,
+            "TextId": "__SingleUse_JDXO",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Joy_X",
+            "X": 28,
+            "Y": 36,
+            "Width": 54,
+            "Height": 24,
+            "TextId": "__SingleUse_QPPC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Controller",
+            "X": 69,
+            "Y": 8,
+            "Width": 99,
+            "Height": 24,
+            "TextId": "__SingleUse_5LWO",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Joy_Y",
+            "X": 28,
+            "Y": 70,
+            "Width": 52,
+            "Height": 24,
+            "TextId": "__SingleUse_8CID",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "VR_OUTER",
+            "X": 10,
+            "Y": 228,
+            "Width": 105,
+            "Height": 24,
+            "TextId": "__SingleUse_AR6D",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "VR_INNER",
+            "X": 10,
+            "Y": 194,
+            "Width": 100,
+            "Height": 24,
+            "TextId": "__SingleUse_TMX5",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "VR_BASE_boxProgress",
+            "X": 127,
+            "Y": 163,
+            "Width": 100,
+            "Height": 18,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\thick\\tiny_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_thick_tiny.png",
+            "IndicatorPositionWidth": 100,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 100,
+            "ProgressRangeStepsMin": 1,
+            "ProgressInitialValue": 3
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "Joy_Y_boxProgress",
+            "X": 120,
+            "Y": 74,
+            "Width": 100,
+            "Height": 18,
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\thick\\tiny_action.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_thick_tiny.png",
+            "IndicatorPositionWidth": 100,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 100,
+            "ProgressRangeStepsMin": 1,
+            "ProgressInitialValue": 3
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "Joy_X_boxProgress",
+            "X": 120,
+            "Y": 40,
+            "Width": 100,
+            "Height": 18,
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\thick\\tiny_action.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_thick_tiny.png",
+            "IndicatorPositionWidth": 100,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 100,
+            "ProgressRangeStepsMin": 1,
+            "ProgressInitialValue": 3
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "VR_OUTER_boxProgress",
+            "X": 127,
+            "Y": 231,
+            "Width": 100,
+            "Height": 18,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\thick\\tiny_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_thick_tiny.png",
+            "IndicatorPositionWidth": 100,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 100,
+            "ProgressRangeStepsMin": 1,
+            "ProgressInitialValue": 3
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "VR_INNER_boxProgress",
+            "X": 127,
+            "Y": 197,
+            "Width": 100,
+            "Height": 18,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\thick\\tiny_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_thick_tiny.png",
+            "IndicatorPositionWidth": 100,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 100,
+            "ProgressRangeStepsMin": 1,
+            "ProgressInitialValue": 3
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Message_textBox",
+            "Y": 270,
+            "Width": 240,
+            "Height": 50,
+            "TextId": "MESSAGE_RESOURCE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 148
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_KARU",
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Joy_Button_flexButton",
+            "X": 28,
+            "Y": 104,
+            "Width": 108,
+            "Height": 25,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_C4WI",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 18,
+                  "Green": 42,
+                  "Blue": 163
+                },
+                "ColorPressed": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 15
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication_3",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "MainScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.24.0",
+  "CreatedBy": "4.24.0"
+}

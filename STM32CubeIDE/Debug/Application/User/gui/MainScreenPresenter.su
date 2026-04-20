@@ -1,0 +1,14 @@
+../../TouchGFX/gui/include/gui/mainscreen_screen/MainScreenPresenter.hpp:55:13:MainScreenPresenter::~MainScreenPresenter()	0	static
+C:/TouchGFXProjects/MyApplication_3/TouchGFX/gui/src/mainscreen_screen/MainScreenPresenter.cpp:11:6:virtual void MainScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/mainscreen_screen/MainScreenPresenter.hpp:25:7:JOYState::~JOYState()	0	static
+../../TouchGFX/gui/include/gui/mainscreen_screen/MainScreenPresenter.hpp:17:7:ADCState::~ADCState()	0	static
+../../TouchGFX/gui/include/gui/mainscreen_screen/MainScreenPresenter.hpp:55:13:virtual MainScreenPresenter::~MainScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/mainscreen_screen/MainScreenPresenter.hpp:25:7:virtual JOYState::~JOYState()	8	static
+../../TouchGFX/gui/include/gui/mainscreen_screen/MainScreenPresenter.hpp:17:7:virtual ADCState::~ADCState()	8	static
+C:/TouchGFXProjects/MyApplication_3/TouchGFX/gui/src/mainscreen_screen/MainScreenPresenter.cpp:24:6:virtual void ADCState::update(MainScreenView&, messageBuffer&)	16	static
+C:/TouchGFXProjects/MyApplication_3/TouchGFX/gui/src/mainscreen_screen/MainScreenPresenter.cpp:28:6:virtual void JOYState::update(MainScreenView&, messageBuffer&)	16	static
+../../TouchGFX/gui/include/gui/mainscreen_screen/MainScreenPresenter.hpp:55:13:virtual void* MainScreenPresenter::_ZThn4_N19MainScreenPresenterD1Ev()	0	static
+C:/TouchGFXProjects/MyApplication_3/TouchGFX/gui/src/mainscreen_screen/MainScreenPresenter.cpp:5:1:MainScreenPresenter::MainScreenPresenter(MainScreenView&)	8	static
+C:/TouchGFXProjects/MyApplication_3/TouchGFX/gui/src/mainscreen_screen/MainScreenPresenter.cpp:38:6:void MainScreenPresenter::calculateRange(messageBuffer&)	0	static
+C:/TouchGFXProjects/MyApplication_3/TouchGFX/gui/src/mainscreen_screen/MainScreenPresenter.cpp:44:6:void MainScreenPresenter::choiceMode(messageBuffer&)	4	static
+C:/TouchGFXProjects/MyApplication_3/TouchGFX/gui/src/mainscreen_screen/MainScreenPresenter.cpp:33:6:virtual void MainScreenPresenter::notifyOutputData(messageBuffer&)	8	static
